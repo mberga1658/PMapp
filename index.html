@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+	<header class="col-12">
+		<h1>Project Management App</h1>
+		<h2>Task Delegation</h2>
+	</header>
+	<div class="container col-12">
+		<div id="tasks">
+			<div id="chart">
+			</div> <!-- chart -->
+
+			<h3>All Project Tasks</h3>
+			<table>
+				<tr>
+					<th>Employee</th>
+					<th>Task Name</th>
+					<th>Status</th>
+				</tr>
+				<tr>
+					<td>Joe</td>
+					<td>Contact Account Managers</td>
+					<td>
+						<select>
+							<option value="Not Started">Not Started</option>
+							<option value="In Progress" selected>In Progress</option>
+							<option value="Completed, Pending Report">Completed, Pending Report</option>
+							<option value="Completed">Completed</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Marge</td>
+					<td>Order Supplies</td>
+					<td>
+						<select>
+							<option value="Not Started">Not Started</option>
+							<option value="In Progress" >In Progress</option>
+							<option value="Completed, Pending Report" selected>Completed, Pending Report</option>
+							<option value="Completed">Completed</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Steph</td>
+					<td>Assemple A-Team</td>
+					<td>
+						<select>
+							<option value="Not Started">Not Started</option>
+							<option value="In Progress" >In Progress</option>
+							<option value="Completed, Pending Report">Completed, Pending Report</option>
+							<option value="Completed" selected>Completed</option>
+						</select>
+					</td>
+				</tr>
+			</table>
+			<input type="submit" value="Update Graph" id="update">
+		</div> <!-- tasks -->
+	</div> <!-- container -->
+	<script href="js/custom.js"></script>
+</body>
+</html>
