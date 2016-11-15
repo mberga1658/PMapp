@@ -66,6 +66,13 @@ tr:nth-child(even) {
 	word-wrap: break-word;
 }
 
+#test {
+	background-color: white;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+}
+
 [class*="col-"] {
     width: 100%;
 }
