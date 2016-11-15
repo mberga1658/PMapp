@@ -1,15 +1,29 @@
-{"employees":[
-    {"firstName":"Tom", "lastName":"Hall"},
-    {"firstName":"Adam", "lastName":"Hiat"},
-    {"firstName":"Emanuel", "lastName":"Figueroa"},
-    {"firstName":"Mike", "lastName":"Crump"},
-    {"firstName":"John", "lastName":"Doe"}
-]}
-
-{"tasks":[
-    {"taskName":"Walkthrough"},
-    {"taskName":"Rough-In"},
-    {"taskName":"Install"},
-    {"taskName":"Delivery"},
-    {"taskName":"Clean-Off}
-]}
+{
+	"employees": [{
+		"firstName": "Tom",
+		"lastName": "Hall"
+	}, {
+		"firstName": "Adam",
+		"lastName": "Hiat"
+	}, {
+		"firstName": "Emanuel",
+		"lastName": "Figueroa"
+	}, {
+		"firstName": "Mike",
+		"lastName": "Crump"
+	}, {
+		"firstName": "John",
+		"lastName": "Doe"
+	}],
+	"tasks": [{
+		"taskName": "Walkthrough"
+	}, {
+		"taskName": "Rough-In"
+	}, {
+		"taskName": "Install"
+	}, {
+		"taskName": "Delivery"
+	}, {
+		"taskName": "Clean-Off"
+	}]
+}
