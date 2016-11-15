@@ -1,7 +1,3 @@
-document.getElementById("update").addEventListener("click",funtion(){
-	alert("hi");
-});
-
 function loadData(){
 	var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
