@@ -6,7 +6,7 @@ function loadData(){
 		if(this.readyState == 4 && this.status == 200){
 			alert("hi3");
 			var dataObj = JSON.parse(this.responseText);
-			document.getElementById("test").innerHTML = dataObj;
+			document.getElementById("test").innerHTML = "dataObj";
 		}
 
 		xhttp.open("GET", "Task.JSON", true);
