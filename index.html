@@ -12,6 +12,10 @@
 	</header>
 	<div class="container col-12">
 		<div id="tasks">
+		<div class="video">
+				<video source src="vid.mp4" type="video/mp4" autoplay="true" id="vid" controls loop>
+				</video>
+			</div>
 			<div id="chart">
 			</div> <!-- chart -->
 
@@ -26,7 +30,7 @@
 					<td>Joe</td>
 					<td>Contact Account Managers</td>
 					<td>
-						<select>
+						<select class="select">
 							<option value="Not Started">Not Started</option>
 							<option value="In Progress" selected>In Progress</option>
 							<option value="Completed, Pending Report">Completed, Pending Report</option>
@@ -38,7 +42,7 @@
 					<td>Marge</td>
 					<td>Order Supplies</td>
 					<td>
-						<select>
+						<select class="select">
 							<option value="Not Started">Not Started</option>
 							<option value="In Progress" >In Progress</option>
 							<option value="Completed, Pending Report" selected>Completed, Pending Report</option>
@@ -50,7 +54,7 @@
 					<td>Steph</td>
 					<td>Assemble A-Team</td>
 					<td>
-						<select>
+						<select class="select">
 							<option value="Not Started">Not Started</option>
 							<option value="In Progress" >In Progress</option>
 							<option value="Completed, Pending Report">Completed, Pending Report</option>
@@ -59,6 +63,7 @@
 					</td>
 				</tr>
 			</table>
+			
 			<div id="test">
 			</div>
 			<input type="submit" value="Test" onclick="loadData()">
